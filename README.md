@@ -165,28 +165,4 @@ No menu input required.
 
 ---
 
-## 5) Submission Checklist
 
-Before submission, verify:
-
-- [ ] All 3 `.c` source files are included
-- [ ] Code compiles without errors
-- [ ] Programs run successfully
-- [ ] Project 1 includes your own 10–15 student dataset
-- [ ] Student ID is correctly shown where required
-- [ ] You tested each program at least once
-
-Recommended files to upload:
-
-- `project1_dynamic_student_record_engine.c`
-- `project2_adaptive_text_intelligence_tool.c`
-- `project3_callback_device_monitoring_simulator.c`
-- `README.md`
-
----
-
-## 6) Notes
-
-- This assignment must be completed individually.
-- Keep your own dataset and chosen paragraph to match the brief.
-- Do not submit only `.exe` files unless specifically requested; source files are normally required.

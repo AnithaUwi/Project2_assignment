@@ -178,7 +178,7 @@ void display_word_stats(struct wordStat *stats, int unique_count) {
     int i;
     struct wordStat *p = stats;
     printf("\nWord Frequency Table\n");
-    printf("-----------------------------\n");
+    
     for (i = 0; i < unique_count; i++, p++) {
         printf("%-20s : %d\n", p->name, p->count);
     }
@@ -228,7 +228,7 @@ int main(void) {
     display_word_stats(stats, unique_count);
 
     while (1) {
-        printf("\n===== Adaptive Text Intelligence Tool =====\n");
+        printf("\n Adaptive Text Intelligence Tool\n");
         printf("1. Count words\n");
         printf("2. Find longest word\n");
         printf("3. Find most frequent word\n");
