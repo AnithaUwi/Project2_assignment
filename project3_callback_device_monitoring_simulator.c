@@ -3,7 +3,7 @@
 #include <string.h>
 #include <time.h>
 
-#define STUDENT_ID "1164570746"
+
 #define DEVICE_COUNT 10
 
 typedef enum {
@@ -105,7 +105,6 @@ int main(void) {
         return 1;
     }
 
-    printf("Student ID: %s\n", STUDENT_ID);
     printf("Custom Callback: anomaly_score_monitor\n");
     printf("Device array memory address: %p\n\n", (void *)devices);
 
